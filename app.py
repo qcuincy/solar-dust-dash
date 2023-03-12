@@ -13,9 +13,9 @@ import dash
 
 cls2name = {0:"clean", 1:"dirty"}
 
-model_classification_cnn = load_model(os.path.join(os.getcwd(), "models\\jack_cnn.h5"), compile=False)
+model_classification_cnn = load_model(os.path.join(os.getcwd(), "models/jack_cnn.h5"), compile=False)
 
-model_detection = YOLO(os.path.join(os.getcwd(), "models\\object_detection.pt"))
+model_detection = YOLO(os.path.join(os.getcwd(), "models/object_detection.pt"))
 
 data_dir = os.path.join(os.getcwd(), "data")
 
