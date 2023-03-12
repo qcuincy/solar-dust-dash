@@ -5,3 +5,4 @@ numpy==1.21.6
 Pillow==9.4.0
 tensorflow==2.10.0
 ultralytics==8.0.35
+gunicorn
